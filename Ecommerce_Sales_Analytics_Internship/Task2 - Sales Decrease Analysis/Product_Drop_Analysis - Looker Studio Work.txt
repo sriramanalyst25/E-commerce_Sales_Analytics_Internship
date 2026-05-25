@@ -1,0 +1,4 @@
+Insight Report — Sales Decrease Analysis for “Others” Category (2021 vs 2022) - Task 2
+https://lookerstudio.google.com/reporting/44aea4b2-bdd0-4b56-a6ca-fd51849073ee
+
+The analysis compared product sales quantities in the “Others” category between 2021 and 2022 using filtered and merged datasets prepared from yearly sales records. Sales difference and percentage change were calculated to identify products with the highest decline in sales performance, and product status was classified as DOWN based on comparison results. The top declining products were highlighted using charts and KPI visuals in Looker Studio, making it easier to track weak-performing products and understand overall sales reduction trends. The dashboard provides a clean and interactive business view for monitoring product performance and supporting future inventory and sales planning decisions.

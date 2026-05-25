@@ -1,0 +1,11 @@
+Task 4:
+Insight Report — Q4 2022 Weekend vs Weekday Sales - Excel:
+Weekday sales remained higher than weekend sales during October and November 2022. December showed a slight increase in weekend sales, indicating improved customer engagement during the holiday season. Overall, weekdays contributed more to total Q4 sales performance.
+
+Insight Report — Q4 Sales Analysis - Python:
+The Python-based sales analysis compared average weekday and weekend sales across Q4 2022 using monthly sales data and grouping logic. The analysis showed stronger weekday sales performance overall, while December weekends demonstrated noticeable sales improvement due to seasonal demand and promotional activity. The results help identify customer buying patterns and support future campaign planning decisions.
+
+Insight Report — Q4 2022 Weekend vs Weekday Sales - Looker Studio: 
+https://lookerstudio.google.com/reporting/d647ea50-e098-4ffa-af55-af707d68fc77
+
+The Looker Studio dashboard visually compares weekday and weekend sales performance across October, November, and December 2022 using charts and KPI cards. October recorded the highest overall sales values, while weekday sales maintained a stronger contribution throughout Q4. The dashboard provides a clear business overview for tracking sales trends, campaign effectiveness, and seasonal performance variations.

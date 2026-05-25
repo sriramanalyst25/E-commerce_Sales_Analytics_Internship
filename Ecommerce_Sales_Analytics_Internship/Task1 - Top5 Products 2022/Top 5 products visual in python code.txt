@@ -1,0 +1,38 @@
+from google.colab import files
+uploaded = files.upload()
+df = pd.read_excel("sales_data_2021_2022_final_fixed.xlsx", sheet_name="SalesData")
+import pandas as pd
+
+# Load the uploaded Excel file
+df = pd.read_excel("sales_data_2021_2022_final_fixed.xlsx", sheet_name="SalesData")
+
+# Convert order_date to datetime and extract year
+df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
+df["year"] = df["order_date"].dt.year
+
+# Filter for Mobiles & Tablets in 2022 with valid orders
+filtered = df[
+    (df["category"] == "Mobiles & Tablets") &
+    (df["year"] == 2022) &
+    (df["is_valid"] == 1)
+]
+
+# Group by product_name and sum qty_ordered
+grouped = filtered.groupby("product_name")["qty_ordered"].sum().reset_index()
+
+# Sort and pick top 5
+top5 = grouped.sort_values(by="qty_ordered", ascending=False).head(5)
+
+# Show result
+print("✅ Top 5 Mobiles & Tablets Products by Quantity (2022):")
+print(top5)
+import matplotlib.pyplot as plt
+
+# Plot horizontal bar chart
+plt.figure(figsize=(10, 6))
+plt.barh(top5["product_name"], top5["qty_ordered"], color="darkorange")
+plt.xlabel("Quantity Ordered")
+plt.title("Top 5 Mobiles & Tablets Products by Quantity (2022)")
+plt.gca().invert_yaxis()
+plt.tight_layout()
+plt.show()

@@ -1,0 +1,42 @@
+# Step 1: Upload and Load Excel
+from google.colab import files
+uploaded = files.upload()
+
+import pandas as pd
+
+# Use the correct uploaded filename
+df = pd.read_excel('weekday_vs_weekend_Sales_During Q4 2022 (4).xlsx', sheet_name=None)
+
+# Step 2: Combine Weekday and Weekend sheets
+weekday = df['Weekday_Sales_2022']
+weekend = df['Weekend_Sales_2022']
+combined = pd.concat([weekday, weekend], ignore_index=True)
+
+# Step 3: Add Month column
+combined['Month'] = pd.to_datetime(combined['Order_Date']).dt.month_name()
+
+# Step 4: Group and calculate monthly average
+monthly_avg = combined.groupby(['Month', 'Day_Type'])['Total_Sales(₹)'].mean().unstack()
+
+# Step 5: Reorder months
+month_order = ['October', 'November', 'December']
+monthly_avg = monthly_avg.reindex(month_order)
+
+# Step 6: Show result
+monthly_avg
+import matplotlib.pyplot as plt
+
+# Bar chart: Monthly Avg Sales
+monthly_avg.plot(kind='bar', title='Monthly Avg Sales: Weekend vs Weekday', color=['orange', 'blue'])
+plt.ylabel('Average Sales ₹')
+plt.xticks(rotation=0)
+plt.tight_layout()
+plt.savefig('monthly_avg_bar.png')
+plt.show()
+q4_avg = combined.groupby('Day_Type')['Total_Sales(₹)'].mean()
+q4_avg.plot(kind='pie', autopct='%1.1f%%', colors=['yellow', 'red'], title='Q4 Sales Split')
+plt.ylabel('')
+plt.tight_layout()
+plt.savefig('q4_sales_pie.png')
+plt.show()
+

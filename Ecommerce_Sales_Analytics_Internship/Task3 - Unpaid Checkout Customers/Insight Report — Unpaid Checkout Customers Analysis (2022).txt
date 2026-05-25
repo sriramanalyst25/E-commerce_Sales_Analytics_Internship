@@ -1,0 +1,2 @@
+Insight Report — Unpaid Checkout Customers Analysis (2022) - Task 3
+The analysis identified customers who completed checkout in 2022 but did not complete payment transactions. Duplicate customer records were removed to prepare a clean dataset for marketing follow-up activities and promotional campaigns.

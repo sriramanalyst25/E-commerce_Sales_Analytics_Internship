@@ -1,0 +1,4 @@
+Insight Report - Top 10 Products with Largest Sales Drop (2022 vs 2021) - task 5
+https://lookerstudio.google.com/reporting/4bd9bc95-2014-4294-ada0-e26cfca5bb6d
+
+The dashboard analyzes the top 10 products with the highest sales decline between 2021 and 2022 using product-wise sales data and yearly comparison metrics. The horizontal bar chart clearly highlights the products with the largest decrease in sales, where Air Conditioner and Bluetooth Headset recorded the sharpest decline. Pie chart visualization helps understand each product’s contribution to the overall sales drop, while KPI scorecards summarize the total sales performance difference between both years. The dashboard layout is designed for quick business review, providing clean visualization, easy comparison, and actionable insights for identifying underperforming products and supporting sales strategy decisions.
