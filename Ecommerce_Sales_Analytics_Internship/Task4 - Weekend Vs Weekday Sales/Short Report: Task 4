@@ -1,0 +1,32 @@
+Task 4 - Weekend vs Weekday Sales Analysis
+
+Objective
+The objective of this task was to compare weekend and weekday sales performance during Q4 2022 and evaluate the effectiveness of promotional campaigns across different months.
+
+Tools Used
+- Python
+- Excel
+- Looker Studio
+
+Dataset Features Used
+- order_date
+- before_discount
+- month_name
+- day_name
+- year
+
+Analysis Performed
+Sales data from October, November, and December 2022 was analyzed by separating weekday and weekend transactions. Average sales values were calculated and compared month-wise to identify customer purchasing trends and seasonal sales performance.
+
+Visualization
+Python visualizations and Looker Studio dashboards were created using bar charts, pie charts, KPI scorecards, and comparison visuals to present Q4 sales trends clearly.
+
+Key Insights
+Weekday sales remained stronger during most of Q4 2022, while December showed noticeable improvement in weekend sales performance due to seasonal demand and promotional campaign activity.
+
+Files Included
+- Excel analysis file
+- Python code file
+- Dashboard screenshots
+- Sales charts
+- Insight report
