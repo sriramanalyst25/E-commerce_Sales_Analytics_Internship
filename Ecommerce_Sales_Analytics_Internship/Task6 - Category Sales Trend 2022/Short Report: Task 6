@@ -1,0 +1,26 @@
+Task 6 - Category Sales Trend Analysis 2022
+
+Objective
+The objective of this task was to compare sales trends across multiple product categories during 2022 and identify category-wise performance patterns using monthly sales analysis.
+
+Tools Used
+- Excel
+
+Dataset Features Used
+- category
+- order_date
+- qty_ordered
+
+Analysis Performed
+Monthly sales quantities were aggregated category-wise for the year 2022 using pivot table analysis in Excel. Different product categories were compared month-wise to evaluate sales trends, seasonal movement, and category performance variations throughout the year.
+
+Visualization
+A time series sales trend chart was created in Excel to visualize monthly category-wise sales performance and compare sales movement across different categories.
+
+Key Insights
+The analysis showed noticeable sales trend variations among categories during 2022. Mobiles & Tablets and Home Tech categories demonstrated stronger sales performance during peak months, while smaller categories maintained comparatively lower sales activity.
+
+Files Included
+- Excel analysis file
+- Sales trend chart
+- Insight report
