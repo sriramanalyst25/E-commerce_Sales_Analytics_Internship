@@ -1,0 +1,31 @@
+Task 2 - Sales Decrease Analysis (2021 vs 2022)
+
+Objective
+The objective of this task was to analyze the sales decrease in the "Others" category between 2021 and 2022 and identify products with the highest decline in sales quantity.
+
+Tools Used
+- Excel
+- Python
+- Looker Studio
+
+Dataset Features Used
+- category
+- order_date
+- is_valid
+- sku_name
+- qty_ordered
+
+Analysis Performed
+Sales data for the "Others" category was filtered separately for 2021 and 2022. Product-wise sales quantities were aggregated, merged, and compared to calculate sales difference and percentage change. Products were classified based on performance status such as DOWN, UP, or FAIR.
+
+Visualization
+Interactive dashboards and charts were created in Looker Studio to visualize product-wise sales drops, percentage changes, KPI scorecards, and comparison analysis between both years.
+
+Key Insights
+The analysis revealed a noticeable decline in sales for several products in the "Others" category during 2022. Products like USB Fan and USB Night Light showed major quantity drops compared to 2021, indicating weaker product demand and possible stock surplus risks.
+
+Files Included
+- Excel analysis file
+- Looker Studio dashboard screenshots
+- Sales comparison charts
+- Insight report
