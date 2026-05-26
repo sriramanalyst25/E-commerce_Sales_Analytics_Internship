@@ -1,0 +1,25 @@
+Task 3 - Unpaid Checkout Customers Analysis
+
+Objective
+The objective of this task was to identify customers who completed the checkout process but did not complete payment transactions during 2022 for marketing follow-up purposes.
+
+Tools Used
+- Excel
+
+Dataset Features Used
+- is_gross
+- is_valid
+- is_net
+- order_date
+- customer_id
+- registered_date
+
+Analysis Performed
+The dataset was filtered for the year 2022 where checkout status was completed but payment was not successful. Duplicate customer records were removed to create a clean customer list for business analysis and promotional targeting.
+
+Key Insights
+The analysis identified a group of customers who showed purchase intent by completing checkout but did not finalize payment. These customers can be targeted through promotional campaigns, reminders, or discount offers to improve conversion rates.
+
+Files Included
+- Excel analysis file
+- Insight report
