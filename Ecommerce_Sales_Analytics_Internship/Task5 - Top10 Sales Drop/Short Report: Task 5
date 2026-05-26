@@ -1,0 +1,30 @@
+Task 5 - Top 10 Sales Drop Analysis
+
+Objective
+The objective of this task was to identify the top 10 products with the highest sales decrease between 2021 and 2022 using yearly product sales comparison analysis.
+
+Tools Used
+- SQL (MySQL)
+- Excel
+- Looker Studio
+
+Dataset Features Used
+- sku_name
+- order_date
+- qty_ordered
+
+Analysis Performed
+Sales quantities for 2021 and 2022 were aggregated product-wise using SQL queries. Sales differences between both years were calculated to identify products with the largest decline in sales performance. The final results were sorted to display the top 10 products with the highest sales drop.
+
+Visualization
+Looker Studio dashboards and charts were created to visualize sales decline trends, product-wise comparisons, KPI scorecards, and sales drop analysis using interactive business visuals.
+
+Key Insights
+The analysis identified several products with significant sales decline between 2021 and 2022. Products such as Air Conditioner and Bluetooth Headset recorded major quantity drops, highlighting weaker product demand and potential business performance concerns.
+
+Files Included
+- SQL query screenshots
+- Excel analysis file
+- Dashboard screenshots
+- Sales comparison charts
+- Insight report
