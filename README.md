@@ -1,4 +1,4 @@
-# Ecommerce_Sales_Analytics_Internship (Long Report)
+# 💵 Ecommerce_Sales_Analytics_Internship (Long Report)
 
 # 1️⃣ Introduction
 This internship project focused on analyzing ecommerce sales data using business-oriented analytical techniques and visualization methods. Multiple real-world business scenarios were solved using Excel, Python, SQL, and Looker Studio to understand sales performance, customer behavior, product demand, and category trends. The internship work was completed remotely under NullClass EdTech as part of practical analytics training and project implementation. This internship also provided real-time hands-on project experience in ecommerce sales analytics, dashboard development, SQL analysis, and business reporting workflows.
