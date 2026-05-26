@@ -1,0 +1,31 @@
+Task 1 - Top 5 Products by Sales in 2022
+
+Objective
+The objective of this task was to identify the top-performing products in the "Mobiles & Tablets" category based on sales quantity during the year 2022 using valid transaction records.
+
+Tools Used
+- Python
+- Excel
+- Matplotlib
+
+Dataset Features Used
+- category
+- order_date
+- is_valid
+- sku_name
+- qty_ordered
+
+Analysis Performed
+The dataset was filtered to include only the "Mobiles & Tablets" category for the year 2022 where valid orders were marked as 1. Product-wise sales quantities were aggregated and ranked in descending order to identify the top 5 highest-selling products.
+
+Visualization
+A horizontal bar chart was created using Matplotlib to visually compare the sales quantity of the top-performing products. The visualization helped highlight product demand and category performance clearly.
+
+Key Insights
+Lenovo Pad P12 emerged as the highest-selling product in the category, followed by Samsung Galaxy M14 5G and Vivo V29e. The analysis showed strong demand concentration among a few key mobile and tablet products during 2022.
+
+Files Included
+- Excel analysis file
+- Python code file
+- Sales visualization chart
+- Insight report
